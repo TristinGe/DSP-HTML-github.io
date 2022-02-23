@@ -12,15 +12,44 @@
     <meta name="keywords" content="Dyson Sphere Project"> <!-- Key Words for conducting searches in Search Engines -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <style> div {border: thin dotted red;} </style>
+    <style>
+      div {border: thin dotted red;}
+      * { box-sizing: border-box;}
+      .header {
+        border: 1px solid red;
+        padding: 15px;
+      }
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
+      .main {
+        width: 50%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
+      .aside {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+      }
+      .footer {
+        border: 1px solid green;
+        padding: 15px;
+      }
+    </style>
 
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1 style="font-size:2.5vw">Dyson Sphere Project</h1>
       <h1 style="font-size:2.5vw">By Shutian<h1>
     </header>
-    <nav>
+    <nav class="menu">
     <ul>
           <li style="font-size:1.5vw"> <a href="childPages/Game Introduction.html" target="_blank">Game Introduction</a>
           <li style="font-size:1.5vw"> <a href="childPages/Images.html" target="_blank">Images</a>
@@ -28,8 +57,8 @@
           <li style="font-size:1.5vw"> <a href="childPages/Background Music.html" target="_blank">Background Music</a>
       </ul>
       </nav>
-    <aside>The Aside Space</aside>
-    <section>
+    <aside class="aside">The Aside Space</aside>
+    <section class="main">
       <article>
         <p>What is a Dyson Sphere?</p>
         <p>A Dyson sphere is a hypothetical megastructure that completely encompasses a star and captures a large percentage of its solar power output.
